@@ -1,0 +1,25 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #F3F4F7;
+    background: linear-gradient(176deg,rgba(243, 244, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    border-radius: 7px
+  };
+
+  :host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 25%;
+    margin: 0;
+    background-color: #f3f4f7;
+    border-radius: 15px;
+    border: 1px solid #3b3b3b;
+  }
+
+  button:hover{
+    background: #F3F4F7;
+    background: linear-gradient(176deg,rgba(243, 244, 247, 1) 0%, rgba(231, 250, 220, 1) 100%);
+  }
